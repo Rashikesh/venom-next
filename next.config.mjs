@@ -2,6 +2,11 @@
 const nextConfig = {
   /* config options here */
   reactCompiler: true,
+  allowedDevOrigins:[
+    "10.230.245.100",
+  ],
+  output:"export",
+  images:{unoptimized:true},
 };
-
-export default nextConfig;
+// module.exports = nextConfig;
+  export default nextConfig;

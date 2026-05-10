@@ -1,0 +1,13 @@
+@keyframes drift {
+  0% {
+    transform: translateY(0px) translateZ(120px);
+  }
+
+  50% {
+    transform: translateY(40px) translateZ(200px);
+  }
+
+  100% {
+    transform: translateY(0px) translateZ(120px);
+  }
+}

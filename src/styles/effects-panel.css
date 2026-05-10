@@ -1,0 +1,70 @@
+.effects-wrapper {
+
+  position: fixed;
+
+  top: 20px;
+  right: 20px;
+
+  z-index: 9999;
+}
+
+.effects-toggle {
+
+  border: none;
+
+  padding: 10px 16px;
+
+  border-radius: 16px;
+
+  cursor: pointer;
+
+  background:
+    rgba(255,255,255,0.08);
+
+  color: white;
+
+  backdrop-filter: blur(20px);
+}
+
+.effects-panel {
+
+  margin-top: 10px;
+
+  display: flex;
+
+  gap: 10px;
+
+  flex-wrap: wrap;
+
+  width: 320px;
+
+  padding: 14px;
+
+  border-radius: 24px;
+
+  background:
+    rgba(255,255,255,0.06);
+
+  backdrop-filter: blur(20px);
+}
+
+.effects-panel button {
+
+  border: none;
+
+  padding: 8px 14px;
+
+  border-radius: 14px;
+
+  cursor: pointer;
+
+  background:
+    rgba(255,255,255,0.08);
+
+  color: white;
+}
+
+.hide-btn {
+
+  margin-left: auto;
+}

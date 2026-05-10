@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 5px;
+  padding: 0;
+}
+
+:root {
+  --bg: #f4d4d4;
+  --glass: rgba(255, 255, 255, 0.06);
+  --font: "EB Garamond", Georgia, serif;
+}
+
+body {
+  font-family: var(--font);
+  font-size: 15px;
+  width: 100vw;
+  height: 100vh;
+  /* line-height: 1.75; */
+  color: #1a1a1a;
+  background: #fafaf8;
+  /* max-width: 720px; */
+  margin: 0 auto;
+  padding: 4.5rem 2rem 5rem;
+}
+
+.main-container {
+  position: relative;
+  width: min(1100px, 92%);
+  margin: auto;
+  margin-top: 100px;
+  padding: 50px;
+  border-radius: 30px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(25px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  z-index: 10;
+}
