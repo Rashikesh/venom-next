@@ -20,7 +20,7 @@
 
   perspective: 2000px;
 
-  background: radial-gradient(circle at center, #acffd9, #e6f7ff);
+  background: radial-gradient(circle at center, #feffff, #ffffee);
 
   z-index: -10;
 }

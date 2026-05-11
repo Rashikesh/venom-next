@@ -1,18 +1,8 @@
-@media (max-width: 480px) {
-  body {
-    padding: 4.5rem 1.25rem 4rem;
-  }
-
-  .skills-list {
-    columns: 1;
-  }
-}
-
 .skills-list {
   columns: 2;
   column-gap: 2rem;
   font-size: 0.84rem;
-  color: #444;
+  color: #000000;
 }
 
 .skills-list li {

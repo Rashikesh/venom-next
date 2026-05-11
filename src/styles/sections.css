@@ -48,6 +48,7 @@
   margin-bottom: 0.9rem;
 }
 
+/* 
 .entry {
   margin-bottom: 1.4rem;
 }
@@ -77,21 +78,22 @@
   margin-top: 0.3rem;
   font-size: 0.84rem;
   color: #555;
-  /* opacity: 0.8; */
-}
+   opacity: 0.8; 
+ } 
 
 .entry__tags {
   margin-top: 0.45rem;
   display: flex;
   flex-wrap: wrap;
   gap: 0.3rem;
-}
+} 
+*/
 
-.tag {
+/* .tag {
   font-size: 0.72rem;
   font-family: "Fira Code", monospace;
   color: #aaa;
   border: 1px solid #ddd;
   padding: 0.12rem 0.5rem;
   border-radius: 3px;
-}
+} */

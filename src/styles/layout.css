@@ -25,6 +25,10 @@ body {
   padding: 4.5rem 2rem 5rem;
 }
 
+.header {
+  margin-bottom: 2rem;
+}
+
 .main-container {
   position: relative;
   width: min(1100px, 92%);
@@ -36,4 +40,64 @@ body {
   backdrop-filter: blur(25px);
   border: 1px solid rgba(255, 255, 255, 0.08);
   z-index: 10;
+}
+/* ── Interests ── */
+.interests {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  font-size: 0.83rem;
+  color: #555;
+}
+
+.interest {
+  border-bottom: 1px solid #bbb;
+  padding-bottom: 1px;
+}
+
+/* ── Entry ── */
+.entry {
+  margin-bottom: 1.4rem;
+}
+
+.entry__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.entry__title {
+  font-weight: 600;
+  font-size: 0.93rem;
+  color: #111;
+}
+
+.entry__meta {
+  font-size: 0.78rem;
+  color: #999;
+  font-style: italic;
+  white-space: nowrap;
+}
+
+.entry__body {
+  margin-top: 0.3rem;
+  font-size: 0.84rem;
+  color: #555;
+}
+
+.entry__tags {
+  margin-top: 0.45rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+.tag {
+  font-size: 0.72rem;
+  font-family: "Fira Code", monospace;
+  color: #aaa;
+  border: 1px solid #ddd;
+  padding: 0.12rem 0.5rem;
+  border-radius: 3px;
 }
