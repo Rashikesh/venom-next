@@ -70,6 +70,15 @@ nav {
     /* Inner soft glow */ inset 0 10px 10px rgba(255, 255, 255, 0.1);
 }
 
+nav a:hover {
+  opacity: 1;
+
+  transform: translateY(-7px);
+  color: rgb(255, 255, 255);
+  text-shadow: #333333;
+  text-decoration: underline #333;
+}
+
 .font-bar label {
   font-family: sans-serif;
   font-size: 0.78rem;

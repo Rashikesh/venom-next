@@ -1,3 +1,39 @@
+/* ======================================================
+   TABLET
+====================================================== */
+
+@media (max-width: 768px) {
+  .main-container {
+    padding: 24px;
+  }
+
+  nav {
+    gap: 10px;
+
+    flex-wrap: wrap;
+  }
+
+  .floating-card {
+    display: none;
+  }
+}
+
+/* ======================================================
+   MOBILE
+====================================================== */
+
+@media (max-width: 480px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .font-bar {
+    flex-direction: column;
+
+    gap: 10px;
+  }
+}
+
 .skills-list {
   columns: 2;
   column-gap: 2rem;
