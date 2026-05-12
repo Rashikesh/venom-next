@@ -15,7 +15,7 @@ export default function Header() {
           harshikeshbokade@gmail.com
         </a>
 
-        <span>+91 6354876173</span>
+        <span>+91 635487++++</span>
 
         <a
           href="http://www.linkedin.com/in/harishikeshkb"
