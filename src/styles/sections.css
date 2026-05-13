@@ -47,8 +47,36 @@
   color: #aaa;
   margin-bottom: 0.9rem;
 }
+.edu-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
 
-.entry {
+.edu-table th {
+  text-align: left;
+  font-family: sans-serif;
+  font-size: 0.72rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #aaa;
+  border-bottom: 1px solid #ddd;
+  padding: 0.25rem 0.75rem 0.25rem 0;
+}
+
+.edu-table td {
+  padding: 0.45rem 0.75rem 0.45rem 0;
+  border-bottom: 1px solid #f0eeeb;
+  vertical-align: top;
+  color: #333;
+}
+
+.edu-table tr:last-child td {
+  border-bottom: none;
+}
+
+/* .entry {
   margin-bottom: 1.4rem;
 }
 
@@ -87,7 +115,7 @@
   gap: 0.3rem;
 }
 
-/* .tag {
+.tag {
   font-size: 0.72rem;
   font-family: "Fira Code", monospace;
   color: #aaa;

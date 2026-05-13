@@ -114,11 +114,11 @@
   }
 
   50% {
-    transform: translateY(-20px) translateZ(200px);
+    transform: translateY(0px) translateZ(200px);
   }
 
   100% {
-    transform: translateY(0px) translateZ(120px);
+    transform: translateY(110px) translateZ(10px);
   }
 }
 .main-container {

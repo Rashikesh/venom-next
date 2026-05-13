@@ -60,10 +60,10 @@ body {
 
   flex-direction: column;
 
-  /* gap: 80px; */
+  gap: 80px;
 }
 /* ── Entry ── */
-/* .entry {
+.entry {
   margin-bottom: 1.4rem;
 }
 
@@ -107,4 +107,4 @@ body {
   border: 1px solid #ddd;
   padding: 0.12rem 0.5rem;
   border-radius: 3px;
-} */
+}
