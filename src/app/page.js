@@ -12,7 +12,7 @@ import BackgroundRoom from "@/components/FloatingPanels";
 export default function Home() {
   return (
     <>
-    <BackgroundRoom />
+      <BackgroundRoom />
       <FontBar />
       <Header />
 
