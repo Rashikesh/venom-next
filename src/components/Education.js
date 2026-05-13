@@ -1,9 +1,7 @@
 export default function Education() {
   return (
     <section id="education">
-      <div className="section-title scroll-page">
-        Education
-      </div>
+      <div className="section-title scroll-page">Education</div>
 
       <table className="edu-table">
         <thead>
