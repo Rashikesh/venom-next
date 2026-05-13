@@ -1,6 +1,6 @@
-// import "./globals_old.css";
-import "./globals.css";
-import {EB_Garamond} from "next/font/google";
+import "./globals_old.css";
+// import "./globals.css";
+import { EB_Garamond } from "next/font/google";
 
 const eb = EB_Garamond({
   subsets: ["latin"],
