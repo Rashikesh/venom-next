@@ -53,7 +53,28 @@ export default function Projects() {
             <span className="tag">Servo Control</span>
           </div>
         </div>
+
+        <div className="entry">
+          <div className="entry__header">
+            <div className="entry__title">Industry Saftey Monitor</div>
+
+            <div className="entry__meta">Project</div>
+          </div>
+
+          <div className="entry__body">
+            Industrial Safety Monitor Digital Permit Intelligence Agent v1.0
+          </div>
+
+          <div className="entry__tags">
+            <span className="tag">Nextjs</span>
+            <span className="tag">
+              <a href="https://eht-jerry-3oouv1p58-harshikesh-s-projects.vercel.app/">link</a>
+            </span>
+            <span className="tag">MQTT</span>
+            <span className="tag">Figuring out..</span>
+          </div>
+        </div>
       </section>
     </div>
-  );
+  )
 }
